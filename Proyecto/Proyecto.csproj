@@ -52,6 +52,12 @@
     <Compile Include="Frm_AgregarUsuario.Designer.cs">
       <DependentUpon>Frm_AgregarUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_CategoriaHelado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_CategoriaHelado.Designer.cs">
+      <DependentUpon>Frm_CategoriaHelado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Frm_AgregarUsuario.resx">
       <DependentUpon>Frm_AgregarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_CategoriaHelado.resx">
+      <DependentUpon>Frm_CategoriaHelado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Login.resx">
       <DependentUpon>Frm_Login.cs</DependentUpon>
