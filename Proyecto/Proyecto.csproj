@@ -82,6 +82,12 @@
     <Compile Include="Frm_Productos.Designer.cs">
       <DependentUpon>Frm_Productos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Proovedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Proovedores.Designer.cs">
+      <DependentUpon>Frm_Proovedores.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Frm_AgregarUsuario.resx">
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Productos.resx">
       <DependentUpon>Frm_Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Proovedores.resx">
+      <DependentUpon>Frm_Proovedores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

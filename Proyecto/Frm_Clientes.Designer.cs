@@ -29,12 +29,10 @@ namespace Proyecto
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -51,13 +49,6 @@ namespace Proyecto
             this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(172, 169);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(225, 20);
-            this.textBox6.TabIndex = 76;
             // 
             // textBox5
             // 
@@ -86,15 +77,6 @@ namespace Proyecto
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(225, 20);
             this.textBox1.TabIndex = 72;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(17, 176);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 13);
-            this.label7.TabIndex = 67;
-            this.label7.Text = "Costo";
             // 
             // label6
             // 
@@ -145,14 +127,14 @@ namespace Proyecto
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(172, 209);
+            this.comboBox1.Location = new System.Drawing.Point(172, 176);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(225, 21);
             this.comboBox1.TabIndex = 88;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(713, 255);
+            this.textBox3.Location = new System.Drawing.Point(713, 222);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(175, 20);
             this.textBox3.TabIndex = 87;
@@ -160,7 +142,7 @@ namespace Proyecto
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(17, 217);
+            this.label8.Location = new System.Drawing.Point(17, 184);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(40, 13);
             this.label8.TabIndex = 86;
@@ -169,7 +151,7 @@ namespace Proyecto
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(664, 258);
+            this.label4.Location = new System.Drawing.Point(664, 225);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(40, 13);
             this.label4.TabIndex = 85;
@@ -178,14 +160,14 @@ namespace Proyecto
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(29, 307);
+            this.dataGridView1.Location = new System.Drawing.Point(29, 274);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(859, 207);
             this.dataGridView1.TabIndex = 84;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(535, 250);
+            this.button4.Location = new System.Drawing.Point(535, 217);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(108, 28);
             this.button4.TabIndex = 83;
@@ -194,7 +176,7 @@ namespace Proyecto
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(380, 250);
+            this.button3.Location = new System.Drawing.Point(380, 217);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(108, 28);
             this.button3.TabIndex = 82;
@@ -203,7 +185,7 @@ namespace Proyecto
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(218, 250);
+            this.button2.Location = new System.Drawing.Point(218, 217);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(108, 28);
             this.button2.TabIndex = 81;
@@ -212,7 +194,7 @@ namespace Proyecto
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(44, 250);
+            this.button1.Location = new System.Drawing.Point(44, 217);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(108, 28);
             this.button1.TabIndex = 80;
@@ -233,12 +215,10 @@ namespace Proyecto
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
@@ -253,12 +233,10 @@ namespace Proyecto
         }
 
         #endregion
-        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
