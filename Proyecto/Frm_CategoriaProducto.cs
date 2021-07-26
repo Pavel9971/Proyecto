@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace Proyecto
 {
-    public partial class Frm_CategoriaHelado : Form
+    public partial class Frm_CategoriaProducto : Form
     {
-        public Frm_CategoriaHelado()
+        public Frm_CategoriaProducto()
         {
             InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Frm_CategoriaProducto frm = new Frm_CategoriaProducto();
+            frm.Close();
         }
     }
 }
