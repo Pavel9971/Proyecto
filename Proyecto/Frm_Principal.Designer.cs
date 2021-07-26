@@ -32,10 +32,6 @@ namespace Proyecto
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.pRODUCTOSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.registrarCategoriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.modificarCategoriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.eliminarCategoriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.verCategoriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.productoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registrarProductoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarProductoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -69,40 +65,10 @@ namespace Proyecto
             // 
             // pRODUCTOSToolStripMenuItem
             // 
-            this.pRODUCTOSToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.registrarCategoriaToolStripMenuItem,
-            this.modificarCategoriaToolStripMenuItem,
-            this.eliminarCategoriaToolStripMenuItem,
-            this.verCategoriaToolStripMenuItem});
             this.pRODUCTOSToolStripMenuItem.Name = "pRODUCTOSToolStripMenuItem";
             this.pRODUCTOSToolStripMenuItem.Size = new System.Drawing.Size(122, 20);
             this.pRODUCTOSToolStripMenuItem.Text = "Categoria Producto";
             this.pRODUCTOSToolStripMenuItem.Click += new System.EventHandler(this.pRODUCTOSToolStripMenuItem_Click);
-            // 
-            // registrarCategoriaToolStripMenuItem
-            // 
-            this.registrarCategoriaToolStripMenuItem.Name = "registrarCategoriaToolStripMenuItem";
-            this.registrarCategoriaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.registrarCategoriaToolStripMenuItem.Text = "Registrar Categoria";
-            this.registrarCategoriaToolStripMenuItem.Click += new System.EventHandler(this.registrarCategoriaToolStripMenuItem_Click);
-            // 
-            // modificarCategoriaToolStripMenuItem
-            // 
-            this.modificarCategoriaToolStripMenuItem.Name = "modificarCategoriaToolStripMenuItem";
-            this.modificarCategoriaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.modificarCategoriaToolStripMenuItem.Text = "Modificar Categoria";
-            // 
-            // eliminarCategoriaToolStripMenuItem
-            // 
-            this.eliminarCategoriaToolStripMenuItem.Name = "eliminarCategoriaToolStripMenuItem";
-            this.eliminarCategoriaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.eliminarCategoriaToolStripMenuItem.Text = "Eliminar Categoria";
-            // 
-            // verCategoriaToolStripMenuItem
-            // 
-            this.verCategoriaToolStripMenuItem.Name = "verCategoriaToolStripMenuItem";
-            this.verCategoriaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.verCategoriaToolStripMenuItem.Text = "Ver Categoria";
             // 
             // productoToolStripMenuItem
             // 
@@ -218,10 +184,6 @@ namespace Proyecto
         private System.Windows.Forms.ToolStripMenuItem ventaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem registrarCategoriaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem modificarCategoriaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem eliminarCategoriaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem verCategoriaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem registrarProductoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem modificarProductoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eliminarProductoToolStripMenuItem;
