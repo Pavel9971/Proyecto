@@ -48,10 +48,10 @@ namespace Proyecto
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pRODUCTOSToolStripMenuItem,
             this.productoToolStripMenuItem,
-            this.compraToolStripMenuItem,
-            this.ventaToolStripMenuItem,
             this.clientesToolStripMenuItem,
             this.proveedoresToolStripMenuItem,
+            this.compraToolStripMenuItem,
+            this.ventaToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
