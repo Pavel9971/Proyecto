@@ -51,5 +51,17 @@ namespace Proyecto
             Frm_Proovedores frm = new Frm_Proovedores();
             frm.Show();
         }
+
+        private void compraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Compras frm = new Frm_Compras();
+            frm.Show();
+        }
+
+        private void ventaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Ventas frm = new Frm_Ventas();
+            frm.Show();
+        }
     }
 }
