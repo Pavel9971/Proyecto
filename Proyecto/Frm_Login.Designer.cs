@@ -33,7 +33,6 @@ namespace Proyecto
             this.txt_usuario = new System.Windows.Forms.TextBox();
             this.txt_clave = new System.Windows.Forms.TextBox();
             this.btn_aceptar = new System.Windows.Forms.Button();
-            this.btn_registrar = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -77,25 +76,13 @@ namespace Proyecto
             this.btn_aceptar.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.btn_aceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_aceptar.ForeColor = System.Drawing.SystemColors.Window;
-            this.btn_aceptar.Location = new System.Drawing.Point(41, 256);
+            this.btn_aceptar.Location = new System.Drawing.Point(127, 252);
             this.btn_aceptar.Name = "btn_aceptar";
             this.btn_aceptar.Size = new System.Drawing.Size(96, 32);
             this.btn_aceptar.TabIndex = 5;
             this.btn_aceptar.Text = "ACEPTAR";
             this.btn_aceptar.UseVisualStyleBackColor = false;
             this.btn_aceptar.Click += new System.EventHandler(this.btn_aceptar_Click);
-            // 
-            // btn_registrar
-            // 
-            this.btn_registrar.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.btn_registrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_registrar.ForeColor = System.Drawing.SystemColors.Window;
-            this.btn_registrar.Location = new System.Drawing.Point(187, 256);
-            this.btn_registrar.Name = "btn_registrar";
-            this.btn_registrar.Size = new System.Drawing.Size(112, 32);
-            this.btn_registrar.TabIndex = 6;
-            this.btn_registrar.Text = "REGISTRAR";
-            this.btn_registrar.UseVisualStyleBackColor = false;
             // 
             // pictureBox2
             // 
@@ -123,7 +110,6 @@ namespace Proyecto
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.ClientSize = new System.Drawing.Size(344, 343);
-            this.Controls.Add(this.btn_registrar);
             this.Controls.Add(this.btn_aceptar);
             this.Controls.Add(this.txt_clave);
             this.Controls.Add(this.txt_usuario);
@@ -147,6 +133,5 @@ namespace Proyecto
         private System.Windows.Forms.TextBox txt_usuario;
         private System.Windows.Forms.TextBox txt_clave;
         private System.Windows.Forms.Button btn_aceptar;
-        private System.Windows.Forms.Button btn_registrar;
     }
 }
