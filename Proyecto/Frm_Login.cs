@@ -22,7 +22,12 @@ namespace Proyecto
             if (validar_Usuario(txt_usuario.Text, txt_clave.Text))
             {
                 Frm_Principal frm = new Frm_Principal();
+                Frm_Login fr = new Frm_Login();
+             
+
                 frm.Show();
+                this.Hide();
+            
             }
         }
         private bool validar_Usuario(string user, string clave) {
@@ -31,14 +36,20 @@ namespace Proyecto
                     where p.USU_USUARIO == txt_usuario.Text
                     && p.USU_CLAVE == txt_clave.Text
                     select p;
-                    if (q.Any()) {
+                   
+            
+            if (q.Any()) 
+            {
 
                 MessageBox.Show("Bienvenido al Sistema");
                 return true;
 
             }
-            else {
+            else 
+            {
                 MessageBox.Show("Usuario o Clave Incorrectos");
+                txt_clave.Text = "";
+                txt_usuario.Text = "";
                 return false;
             }
 

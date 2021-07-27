@@ -25,8 +25,8 @@ namespace Proyecto
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
-            Close();
+            this.Close();
+        
         }
 
         private void registrarCategoriaToolStripMenuItem_Click(object sender, EventArgs e)
