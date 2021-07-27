@@ -33,11 +33,10 @@ namespace Proyecto
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.txt_usuario = new System.Windows.Forms.TextBox();
+            this.txt_clave = new System.Windows.Forms.TextBox();
+            this.cbx_tipousuario = new System.Windows.Forms.ComboBox();
+            this.btn_registrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -80,57 +79,46 @@ namespace Proyecto
             this.label4.TabIndex = 3;
             this.label4.Text = "Tipo Usuario:";
             // 
-            // textBox1
+            // txt_usuario
             // 
-            this.textBox1.Location = new System.Drawing.Point(247, 70);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(224, 20);
-            this.textBox1.TabIndex = 4;
+            this.txt_usuario.Location = new System.Drawing.Point(247, 70);
+            this.txt_usuario.Name = "txt_usuario";
+            this.txt_usuario.Size = new System.Drawing.Size(224, 20);
+            this.txt_usuario.TabIndex = 4;
             // 
-            // textBox2
+            // txt_clave
             // 
-            this.textBox2.Location = new System.Drawing.Point(247, 114);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(224, 20);
-            this.textBox2.TabIndex = 5;
+            this.txt_clave.Location = new System.Drawing.Point(247, 114);
+            this.txt_clave.Name = "txt_clave";
+            this.txt_clave.Size = new System.Drawing.Size(224, 20);
+            this.txt_clave.TabIndex = 5;
             // 
-            // comboBox1
+            // cbx_tipousuario
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(247, 162);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(224, 21);
-            this.comboBox1.TabIndex = 6;
+            this.cbx_tipousuario.FormattingEnabled = true;
+            this.cbx_tipousuario.Location = new System.Drawing.Point(247, 162);
+            this.cbx_tipousuario.Name = "cbx_tipousuario";
+            this.cbx_tipousuario.Size = new System.Drawing.Size(224, 21);
+            this.cbx_tipousuario.TabIndex = 6;
             // 
-            // button1
+            // btn_registrar
             // 
-            this.button1.Location = new System.Drawing.Point(179, 231);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 30);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Registrar";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(332, 231);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(104, 30);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Regresar";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btn_registrar.Location = new System.Drawing.Point(262, 226);
+            this.btn_registrar.Name = "btn_registrar";
+            this.btn_registrar.Size = new System.Drawing.Size(104, 30);
+            this.btn_registrar.TabIndex = 7;
+            this.btn_registrar.Text = "Registrar";
+            this.btn_registrar.UseVisualStyleBackColor = true;
             // 
             // Frm_AgregarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(631, 319);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btn_registrar);
+            this.Controls.Add(this.cbx_tipousuario);
+            this.Controls.Add(this.txt_clave);
+            this.Controls.Add(this.txt_usuario);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -149,10 +137,9 @@ namespace Proyecto
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox txt_usuario;
+        private System.Windows.Forms.TextBox txt_clave;
+        private System.Windows.Forms.ComboBox cbx_tipousuario;
+        private System.Windows.Forms.Button btn_registrar;
     }
 }
