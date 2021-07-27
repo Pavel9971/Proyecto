@@ -21,7 +21,7 @@ namespace Proyecto
         {
             if (validar_Usuario(txt_usuario.Text, txt_clave.Text))
             {
-                Frm_Login frm = new Frm_Login();
+                Frm_Principal frm = new Frm_Principal();
                 frm.Show();
             }
         }
@@ -29,8 +29,8 @@ namespace Proyecto
             BasedeDatosDataContext context = new BasedeDatosDataContext();
             var q = from p in context.TBL_USUARIO
                     where p.USU_USUARIO == txt_usuario.Text
-                    &&  p.USU_CLAVE == txt_clave.Text
-                    select p
+                    && p.USU_CLAVE == txt_clave.Text
+                    select p;
                     if (q.Any()) {
 
                 MessageBox.Show("Bienvenido al Sistema");
